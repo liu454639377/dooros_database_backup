@@ -4,13 +4,13 @@ if [ $? -eq 1 ]; then
   yum install -y lftp
 fi
 #sftp服务器地址
-HOST=117.176.240.253
+HOST=xxx.xxx.xxx.xxx
 #sftp服务器端口
 PORT=9012
 #sftp服务器账号
 USERNAME="ftpsync"
 #sftp服务器密码
-PASSWORD="goodluck@123."
+PASSWORD="xxx.xxxxxx"
 #本地目录
 dir="/dooros_database_backup"
 #目标文件
